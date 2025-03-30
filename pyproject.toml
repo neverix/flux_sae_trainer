@@ -1,0 +1,28 @@
+[project]
+name = "flux-sae-trainer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.5.2",
+    "bitsandbytes>=0.45.3",
+    "dataset>=1.6.2",
+    "datasets>=3.4.1",
+    "diffusers>=0.32.2",
+    "dotenv>=0.9.9",
+    "einops>=0.8.1",
+    "fire>=0.7.0",
+    "more-itertools>=10.6.0",
+    "nvitop>=1.4.2",
+    "orjson>=3.10.16",
+    "sentencepiece>=0.2.0",
+    "sparsify",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.50.0",
+    "wandb>=0.19.8",
+]
+
+[tool.uv.sources]
+sparsify = { path = "image-sparsify", editable=true }

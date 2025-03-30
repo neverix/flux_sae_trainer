@@ -1,0 +1,3 @@
+[submodule "sparsify"]
+	path = image-sparsify
+	url = http://github.com/neverix/sparsify/
